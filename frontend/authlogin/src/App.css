@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+
+.nav-content{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+  justify-content: space-evenly;
+  /* width: 60px;
+  height: 40px; */
+  background-color: cornsilk;
+ 
+}
+
+.signup{
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  align-items: center;
+
+  
+  
+}
+.signup input{
+  text-decoration: none;
+  border: none;
+  height: 25px;
+  margin: 10px;
+}
+.Login{
+  margin: 10px;
+}
+.signup button{
+  width: 230px;
+  height: 25px;
+  border: none;
+  background-color: lightseagreen;
+}
+.Login-content button{
+  margin: 10px;
+  width: 230px;
+  height: 30px;
+  border: none;
+  background-color: lightseagreen;
+
+}
+
+.Login-content input{
+  margin: 10px;
+  width: 230px;
+  height: 30px;
+  border: none;
+ 
+
+}
