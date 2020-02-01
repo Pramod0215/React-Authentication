@@ -22,6 +22,13 @@ Go to 'React/Sudoku/sudokuapp' and type the following code in the terminal:
 "node --version",
 "npm install", 
 "npm -v",
+"react": "^16.12.0",
+"react-dom": "^16.12.0",
+"react-redux": "^7.1.3",
+"react-router-dom": "^5.1.2",
+"react-scripts": "0.9.5",
+"redux": "^4.0.4",
+"redux-thunk": "^2.3.0"
 ```
 Go to install router for rounting url
 ```
