@@ -2,6 +2,8 @@
 
 Taking Django authentication, 
 
+## Installation
+
 To run this project: Clone the repository
 ```
 https://github.com/Pramod0215/login/
