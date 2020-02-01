@@ -1,6 +1,6 @@
 # React-Authentication
 
-Using django Authentication. Create New user from frontend and using django token.
+Taking Django authentication, 
 
 To run this project: Clone the repository
 ```
