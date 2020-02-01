@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'rest_auth.registration',
 
-    'allauth.socialaccount',
+
 
 
 ]
@@ -154,3 +154,4 @@ CORS_ORIGIN_ALLOW_ALL = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
