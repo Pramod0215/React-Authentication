@@ -5,6 +5,7 @@ class Home extends Component{
         return(
             <div>
                 <h1>Welcome Home Page...!!!</h1>
+                <h2>Please login</h2>
             </div>
         )
     }
