@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Signup from './component/Signup';
+import Home from './component/Home'
 
 class App extends Component {
   render() {
@@ -16,12 +17,13 @@ class App extends Component {
         <Router>           
           <nav>
             <div className='nav-content'>
-              <Link to='/'>Home</Link>
+              <Link to='/home'>Home</Link>
               <Link to='/login'>Login</Link>
               <Link to='/signup'>Signup</Link>  
             </div>
            </nav>
           <Switch>
+            <Route path='/home' component={Home}/>
             <Route path='/login' component={Login}/>
             <Route path='/signup'component={Signup}/>
           </Switch>
