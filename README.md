@@ -6,7 +6,7 @@ Taking Django authentication,
 
 To run this project: Clone the repository
 ```
-https://github.com/Pramod0215/login/
+git clone https://github.com/Pramod0215/React-Authentication/
 ```
 Setting up your virtual environment:
 ```
